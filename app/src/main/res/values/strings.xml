@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Tin Can: An IO Experiment</string>
+
+    <string name="button_discover">Discover</string>
+    <string name="button_get_started">Get started</string>
+    <string name="button_lets_go">Let\'s go!</string>
+    <string name="button_share">Share</string>
+
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_connect">Are you trying to connect this device to another one?</string>
+    <string name="dialog_i_found_one">I found one!</string>
+    <string name="dialog_message_almost_there">Almost there…</string>
+    <string name="dialog_message_epic">This will be epic!</string>
+    <string name="dialog_message_incoming">Outgoing transmission…</string>
+    <string name="dialog_message_patience">Patience, grasshopper</string>
+    <string name="dialog_message_ready">Are you ready for this?</string>
+    <string name="dialog_message_stay_target">Stay on target</string>
+    <string name="dialog_message_wait">Wait for it…</string>
+    <string name="dialog_nope_just_one">Nope, just one</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_single_device">:( Just one lonely little device? Are you sure you don\'t have another
+        device to join in the fun?</string>
+    <string name="dialog_yes">Yes</string>
+
+    <string name="log_error_occurred">Firebase error occurred</string>
+
+    <string name="message_body">%1$s|%2$s|%3$s|%4$s</string>
+    <string name="message_g">G</string>
+    <string name="message_o">o</string>
+    <string name="message_l">l</string>
+    <string name="message_e">e</string>
+    <string name="message_i">i</string>
+    <string name="message_slash">/</string>
+    <string name="message_one">1</string>
+    <string name="message_six">6</string>
+
+    <string name="text_developed_by">Created by Kyle Parker</string>
+    <string name="text_app_challenge">Android Experiments\nI/O Challenge</string>
+    <string name="text_connect">Connect your devices for a super duper amazing message!</string>
+    <string name="text_connect_device">Connect device #%1$s</string>
+    <string name="text_enable_nearby">Enable your device to discover others nearby</string>
+    <string name="text_include_wear">Include my Android Wear device</string>
+    <string name="text_listen_device">Listen for a nearby device</string>
+    <string name="text_message_received">Whoo hoo! Message sent and received</string>
+    <string name="text_number_devices">Number of devices</string>
+    <string name="text_scroll">Oops, you only have %1$s devices, you\'ll have to scroll to the right to read the
+        message.</string>
+    <string name="text_waiting_for_device">Waiting for device #%1$s</string>
+    <string name="text_welcome">Welcome</string>
+
+    <string name="toast_success">Success! Message sent to device #%1$s. Go to device #%2$s and start listening!</string>
+</resources>

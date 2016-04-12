@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="keyline_1">16dp</dimen>
+    <dimen name="keyline_1_double">32dp</dimen>
+    <dimen name="keyline_1_half">8dp</dimen>
+    <dimen name="keyline_2">72dp</dimen>
+    <dimen name="keyline_3">128dp</dimen>
+
+    <dimen name="text_size_header">28sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+</resources>

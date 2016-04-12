@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="key_firebase_uid">firebaseUid</string>
+    <string name="key_device_number">deviceNumber</string>
+    <string name="key_device_reset_done">deviceResetDone</string>
+    <string name="key_is_connected">isConnected</string>
+    <string name="key_message_received">messageReceived</string>
+    <string name="key_total_devices">totalDevices</string>
+</resources>

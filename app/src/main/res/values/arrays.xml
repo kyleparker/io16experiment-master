@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="get_started_options">
+        <item>Start fresh</item>
+        <item>Connect to another device</item>
+    </string-array>
+</resources>

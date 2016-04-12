@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+  <integer name="ga_sessionTimeout">300</integer>
+
+    <!-- Enable automatic Activity measurement -->
+    <bool name="ga_autoActivityTracking">true</bool>
+    
+    <!-- If true, enable dry run mode. Default is false. In dry run mode, the normal 
+    code paths are executed locally, but hits are not sent to Google Analytics servers -->
+    <!-- <bool name="ga_dryRun">true</bool> -->
+    
+    <!-- Frequency of automatic dispatch in seconds. Defaults to 30 minutes (1800 seconds). -->
+    <!--  <bool name="ga_dispatchPeriod">900</bool> -->
+    
+    <!-- Track uncaught exceptions -->
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+
+    <!--  The following value should be replaced with correct property id. -->
+    <string name="ga_trackingId">REPLACE WITH KEY</string>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".65"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/intro_connect"
+            style="@style/TextHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/keyline_1_double"
+            android:layout_marginStart="@dimen/keyline_1_double"
+            android:layout_marginTop="@dimen/keyline_1_half"
+            android:gravity="center_horizontal"
+            android:text="@string/text_connect"/>
+
+        <TextView
+            android:id="@+id/intro_number_devices"
+            style="@style/TextLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/keyline_1_double"
+            android:layout_marginStart="@dimen/keyline_1_double"
+            android:layout_marginTop="@dimen/keyline_1_double"
+            android:gravity="center_horizontal"
+            android:text="@string/text_number_devices"/>
+
+        <Spinner
+            android:id="@+id/spinner_devices"
+            style="@style/Widget.AppCompat.Light.DropDownItem.Spinner"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="@dimen/keyline_1_half"
+            android:layout_marginStart="@dimen/keyline_1_half"
+            android:layout_marginTop="@dimen/keyline_1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_lets_go"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".35"
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button_lets_go"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/button_lets_go"
+            android:textColor="@color/text_primary"
+            android:textSize="@dimen/text_size_header"
+            android:padding="@dimen/keyline_1"
+            android:textAllCaps="true"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:src="@drawable/img_android_logo"
+            tools:ignore="ContentDescription"/>
+
+    </LinearLayout>
+</LinearLayout>

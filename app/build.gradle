@@ -1,0 +1,57 @@
+apply plugin: 'com.android.application'
+
+repositories {
+    maven { url "https://jitpack.io" }
+}
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    signingConfigs {
+        debug {
+            storeFile file("/keystore/debug.keystore")
+        }
+    }
+    defaultConfig {
+        applicationId "com.fourteenelevendev.android.apps.ioexperiment"
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+//    wearApp project(':wear')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.2.1'
+    compile 'com.android.support:support-v4:23.2.1'
+    // Play Services
+    compile 'com.google.android.gms:play-services-base:8.4.0'
+    compile('com.google.android.gms:play-services-analytics:8.4.0') {
+        exclude module: 'play-services-ads'
+    }
+    compile 'com.google.android.gms:play-services-gcm:8.4.0'
+    compile 'com.google.android.gms:play-services-nearby:8.4.0'
+//    compile 'com.google.android.gms:play-services-wearable:8.4.0'
+    // Firebase SDK
+    compile 'com.firebaseui:firebase-ui:0.2.2'
+    // Firebase UI
+    compile 'com.firebase:firebase-client-android:2.4.0'
+    compile 'com.google.code.gson:gson:2.4'
+    compile('com.github.afollestad.material-dialogs:core:0.8.5.6@aar') {
+        transitive = true
+    }
+}
+
+apply plugin: 'com.google.gms.google-services'

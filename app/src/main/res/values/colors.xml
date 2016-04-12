@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorControlNormal">#ffffff</color>
+    <color name="colorControlActivated">#FF4081</color>
+
+    <color name="background_primary">#2196F3</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="text_primary">#ffffff</color>
+
+    <color name="message_background_1">#F57C00</color>
+    <color name="message_background_2">#C2185B</color>
+    <color name="message_background_3">#7B1FA2</color>
+    <color name="message_background_4">#303F9F</color>
+    <color name="message_background_5">#1976D2</color>
+    <color name="message_background_6">#0097A7</color>
+    <color name="message_background_7">#00796B</color>
+    <color name="message_background_8">#388E3C</color>
+    <color name="message_background_9">#689F38</color>
+    <color name="message_background_10">#FBC02D</color>
+    <color name="message_background_11">#d32f2f</color>
+</resources>

@@ -1,0 +1,3 @@
+<resources>
+    <string name="nearby_api_key" translatable="false" templateMergeStrategy="preserve">REPLACE KEY</string>
+</resources>

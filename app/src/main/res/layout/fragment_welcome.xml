@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="@dimen/keyline_1"
+            android:layout_marginStart="@dimen/keyline_1"
+            android:layout_marginTop="@dimen/keyline_3"
+            android:contentDescription="@string/text_welcome"
+            android:src="@drawable/img_welcome"/>
+
+        <TextView
+            android:id="@+id/intro_app_challenge"
+            style="@style/TextHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/keyline_1_double"
+            android:gravity="center_horizontal"
+            android:text="@string/text_app_challenge"/>
+
+        <TextView
+            android:id="@+id/intro_created_by"
+            style="@style/TextLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/keyline_1"
+            android:gravity="center_horizontal"
+            android:text="@string/text_developed_by"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_get_started"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="?actionBarSize"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_get_started"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/button_get_started"
+            android:textColor="@color/text_primary"
+            android:textSize="@dimen/text_size_header"
+            android:padding="@dimen/keyline_1_double"
+            android:textAllCaps="true"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/img_android_logo"
+        tools:ignore="ContentDescription"/>
+</FrameLayout>
