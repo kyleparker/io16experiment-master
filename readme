@@ -1,6 +1,12 @@
 Using the Nearby API and Firebase, view a special message on your devices. While most people will probably only have a couple phones or tablets, the ideal setup is using 11 different devices. Check out the video below to view the app in all of its awesomeness!
 
-Prior to running this app for the first time, you'll need to get an API key for the Nearby API. Follow these instructions for setting up your key:
+Prior to running this app for the first time, you'll need:
+
+> Get an API key for the Nearby API. Follow these instructions for setting up your key:
 https://developers.google.com/nearby/messages/android/get-started
 
-You will also need to add your Firebase URL in the Constants class.
+> Add your Firebase URL in the Constants class
+
+> Add the google-services.json to enable Google Analytics
+
+> Add your trackingId to main\res\xml\app_tracker.xml
